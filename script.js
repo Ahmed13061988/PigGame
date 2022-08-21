@@ -70,11 +70,14 @@ btnHold.addEventListener('click', function () {
 });
 
 btnNew.addEventListener('click', function () {
-  diceEl.classList.add('hidden');
-  score0El.textContent = 0;
-  score1El.textContent = 0;
-  current0El.textContent = 0;
-  current1El.textContent = 0;
-  document.querySelector('.player').classList.remove('player--winner');
-  player0.classList.toggle('player--active');
+  //   diceEl.classList.add('hidden');
+  //   score0El.textContent = 0;
+  //   score1El.textContent = 0;
+  //   current0El.textContent = 0;
+  //   current1El.textContent = 0;
+
+  //   document.querySelector('.player').classList.remove('player--winner');
+  //   player0.classList.add('player--active');
+  //   gameFinished = true;
+  window.location.reload();
 });
